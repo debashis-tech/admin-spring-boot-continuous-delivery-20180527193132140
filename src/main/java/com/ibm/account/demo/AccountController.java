@@ -13,10 +13,7 @@ import java.io.*;
 
 @Controller
 public class AccountController {
-	
-	@Autowired
-	Database account;
-	
+
 	@RequestMapping(path="/test", method=RequestMethod.GET)
 	public String test() {
 		return "THIS IS A TEST!!!";
